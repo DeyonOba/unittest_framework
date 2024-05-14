@@ -19,3 +19,8 @@ A test suite is a collection of test cases, test suites, or both. It is used to 
 ### Test Runner
 
 A test runner is a component which orchestrates the execution of tests and provides the outcome to the user. The runner can use a GUI, or textual interface, or return a special value to indicate the results of executing the tests.
+
+The `setUp()` and `tearDown()` methods allow you to define instruction that will be executed before and after each test method.
+
+- [Further Reading](https://docs.python.org/3/library/unittest.html#organizing-tests)
+
